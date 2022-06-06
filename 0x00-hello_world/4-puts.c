@@ -1,10 +1,13 @@
 #include <stdio.h>
-/*
- *main - Terminal run
+
+/**
+ *main - Entry Point
  *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-puts("Programming is like building a mutlilingual puzzle\n");
+puts("\"Programming is like building a mutlilingual puzzle\n");
 return (0);
 }
