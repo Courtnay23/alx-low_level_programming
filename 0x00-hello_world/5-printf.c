@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*
- *main - Terminal run
+/**
+ *main - Entry point
  *
+ * Return 0 (Success)
  */
 int main(void)
 {
