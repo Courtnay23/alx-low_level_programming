@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main = Entry Point
+ * main - Entry Point
  *
- * Return = 0 (SUCCESS)
+ * Return: 0 (SUCCESS)
  */
-int positive_or_negative(void)
+int main(void)
 {
 int n;
  srand(time(0));
