@@ -8,8 +8,8 @@
 int main(void)
 {
 int x;
-if (x = 0, x < 10, x++)
-printf(x);
-print('n\');
+for (x = 0, x < 10, x++)
+printf(%d, x);
+printf('\n');
 return (0);
 }
