@@ -1,11 +1,15 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main = Entry Point
+ * main - Entry Point
  *
- * Return = 0 (SUCCESS)
+ * Return: 0 (SUCCESS)
  */
 int main(void)
 {
-return(0);
+int x;
+if (x = 0, x < 10, x++)
+printf(x);
+print('n\');
+return (0);
 }
