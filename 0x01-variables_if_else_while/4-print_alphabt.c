@@ -1,11 +1,20 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main = Entry Point
+ * main - Entry Point
  *
- * Return = 0 (SUCCESS)
+ * Return: 0 (SUCCESS)
  */
 int main(void)
 {
-return(0);
+char x;
+e = 'e';
+q = 'q';
+for (x = 'a'; x <= 'z'; x++)
+{
+if (x =! e && x =! q)	
+putchar(x);
+}
+putchar('\n');
+return (0);
 }
