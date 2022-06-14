@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-while ( char x = 'a' ; x <= 'z'; x++)
-putchar("%c\n", );	
+while ( int x = 'a' ; x <= 'z'; x++)
+putchar("%c\n", x);	
 return (0);
 }
