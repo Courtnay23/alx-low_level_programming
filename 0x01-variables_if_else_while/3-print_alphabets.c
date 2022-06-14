@@ -1,11 +1,17 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main = Entry Point
+ * main - Entry Point
  *
- * Return = 0 (SUCCESS)
+ * Return: 0 (SUCCESS)
  */
 int main(void)
 {
-return(0);
+char x;
+for (x = 'a'; x <= 'z'; x++)
+putchar(x);
+for (x = 'A'; x <= 'z'; x++);
+putchar(x);
+putchar('\n');
+return (0);
 }
