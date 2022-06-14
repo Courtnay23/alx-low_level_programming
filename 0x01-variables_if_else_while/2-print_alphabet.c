@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
  * main - Entry Point
  *
@@ -8,9 +7,7 @@
  */
 int main(void)
 {
-for (int x = 'a' ; x <= 'Z'; x++)
-{
-putchar(tolower(x));
-}	
+while ( char x = 'a' ; x <= 'z'; x++)
+putchar("%c\n", );	
 return (0);
 }
