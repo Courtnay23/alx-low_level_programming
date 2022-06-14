@@ -1,11 +1,16 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
- * main = Entry Point
+ * main - Entry Point
  *
- * Return = 0 (SUCCESS)
+ * Return: 0 (SUCCESS)
  */
 int main(void)
 {
-return(0);
+for (int x = 'a' ; x <= 'Z'; x++)
+{ x = tolower(x);
+putchar(x);
+}	
+return (0);
 }
