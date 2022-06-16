@@ -1,11 +1,15 @@
-#include <stdio.h>
-
+#include <unistd.h>
+#include "holberton.h"
 /**
- * main = Entry Point
- *
- * Return = 0 (SUCCESS)
+ * main - Check description
+ * Description: It prints the alphabet in lowercase, followed by a new line.
+ * Return: 0 (SUCCESS)
  */
 int main(void)
 {
-return(0);
+char x;
+for (x = 'a'; x <= 'z'; x++)
+_putchar(x);
+_putchar('\n');
+return (0);
 }
