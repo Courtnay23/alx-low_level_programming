@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char word[9]= "Holberton";
+char word[9] = "Holberton";
 int x;
 for (x = 0; x < 9; x++)
 _putchar(word[x]);
