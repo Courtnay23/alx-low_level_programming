@@ -5,7 +5,7 @@
  * Description: It prints the alphabet in lowercase, followed by a new line.
  * Return: 0 (SUCCESS)
  */
-int main(void)
+int print_alphabet(void)
 {
 char x;
 for (x = 'a'; x <= 'z'; x++)
