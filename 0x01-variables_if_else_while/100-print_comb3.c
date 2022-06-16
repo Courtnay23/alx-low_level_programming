@@ -10,7 +10,7 @@ int main(void)
 int x, y;
 for (x = '0'; x <= '9'; x++)
 {
-for (y = d + 1; y <= '9'; y++)
+for (y = x + 1; y <= '9'; y++)
 if (y != x)
 {
 putchar(x);
