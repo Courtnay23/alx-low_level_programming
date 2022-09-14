@@ -1,11 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main = Entry Point
- *
- * Return = 0 (SUCCESS)
+ * print_last_digit - Prints the last digit of a number
+ *@n: The number in question
+ * Return: Value of last digit
  */
-int main(void)
+int print_last_digit(int n)
 {
-return(0);
+int last_digit = n % 10;
+if (last_digit < 10)
+last_digit *= -1;
+_putchar(last_digit + '0');
+return (last_digit);
 }
