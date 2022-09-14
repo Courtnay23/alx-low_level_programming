@@ -1,5 +1,4 @@
-#include <unistd.h>
-#include "holberton.h"
+#include "main.h"
 /**
  * main - Check description
  * Description: It prints the word Holberton, followed by a new line.
