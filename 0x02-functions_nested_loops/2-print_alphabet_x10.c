@@ -1,11 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main = Entry Point
+ * print_alphabet_x10 - function prints 10 copies of alphabet
  *
  * Return = 0 (SUCCESS)
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-return(0);
+char c, i;
+for (i = 0; 1 <= 9; i++)
+{
+for (c = 'a'; c <= 'z'; c++)
+{ 
+_putchar(c);
+}
+_puthcar('\n');
+}
 }
