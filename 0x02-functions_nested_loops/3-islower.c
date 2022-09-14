@@ -1,11 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main = Entry Point
- *
+ * _islower = checks for lowercase char
+ *@c is the integer 
  * Return = 0 (SUCCESS)
  */
-int main(void)
+int _islower(int c)
 {
+if (c >= 'A' && c <= 'z')
+{
+return(1);
+}
+else
 return(0);
 }
