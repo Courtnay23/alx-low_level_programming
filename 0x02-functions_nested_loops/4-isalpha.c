@@ -3,7 +3,7 @@
 /**
  * _isalpha = checks if int c is a lower or upper case letter
  *@c: is the integer being used for the question
- * Returm: 0
+ * Return: 0
  */
 int _isalpha(int c)
 {
