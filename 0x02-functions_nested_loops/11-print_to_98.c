@@ -1,11 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main = Entry Point
- *
- * Return = 0 (SUCCESS)
+ * print_to_98 - Prints all natural numbers from input to 98,
+ * in order separated by comma and a space.
+ *@n: Number which is taken as input
  */
-int main(void)
+void print_to_98(int n)
 {
-return(0);
+while (n > 98)
+printf("%d, ", n--);
+printf("%d\n", n);
+}
+else
+{
+while (n < 98)
+printf("%d, ", n++);
+printf("%d\n", n);
+}
 }

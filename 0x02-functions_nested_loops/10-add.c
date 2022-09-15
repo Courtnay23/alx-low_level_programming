@@ -1,11 +1,12 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main = Entry Point
+ * add - Adds two integers
+ * @num1: The first integer being added
+ * @num2: The second integer being added
  *
- * Return = 0 (SUCCESS)
+ * Return: Result of the addition
  */
-int main(void)
+int add(int num1, int num2)
 {
-return(0);
+return (num1 + num2);
 }
