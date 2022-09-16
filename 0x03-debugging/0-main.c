@@ -1,12 +1,12 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * main - Integer check if + orr -
+ * main - tests if integer is postive of negative
  *
  * Return: 0
  */
 int main(void)
 {
-int x;
+int i;
 i = 0;
 positive_or_negative(i);
 return (0);
