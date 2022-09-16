@@ -20,6 +20,7 @@ result = digit * mult;
 if (result <= 99)
 _putchar(' ');
 if (result <= 9)
+if (result >= 100)
 {
 _putchar((result / 100) + '0');
 _putchar((result / 10) % 10 + '0');
