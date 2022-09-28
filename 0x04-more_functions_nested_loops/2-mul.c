@@ -1,11 +1,11 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main = Entry Point
- *
- * Return = 0 (SUCCESS)
+ *mul - multiplies two numbers
+ *@a: first number
+ *@b: second number
+ *Return: returns result
  */
-int main(void)
+int mul(int a, int b)
 {
-return(0);
+return (a * b);
 }
