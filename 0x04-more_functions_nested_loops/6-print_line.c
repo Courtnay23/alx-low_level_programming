@@ -1,11 +1,15 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
- * main = Entry Point
- *
- * Return = 0 (SUCCESS)
+ *print_line - prints a straight line
+ *@n: parameter
+ *Return: returns nothing
  */
-int main(void)
+void print_line(int n)
 {
-return(0);
+while (n-- > 0)
+{
+putchar('_');
+}
+putchar('\n');
 }
