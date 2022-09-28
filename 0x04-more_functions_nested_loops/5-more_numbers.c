@@ -1,11 +1,22 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
- * main = Entry Point
- *
- * Return = 0 (SUCCESS)
+ *more_numbers - prints numbers to 14
+ *Return: returns nothing
  */
-int main(void)
+void more_numbers(void)
 {
-return(0);
+int n1, n2;
+for (n1 = 0; n1 < 10; n1++)
+{
+for (n2 = 0; n2 <= 14; n2++)
+{
+if (n2 > 9)
+{
+putchar((n2 / 10) + '0');
+}
+putchar((n2 % 10) + '0');
+}
+putchar(10);
+}
 }
